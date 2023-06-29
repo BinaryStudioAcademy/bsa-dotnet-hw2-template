@@ -1,4 +1,5 @@
-﻿// TODO: implement class Vehicle.
+﻿namespace CoolParking.BL.Models;
+// TODO: implement class Vehicle.
 //       Properties: Id (string), VehicleType (VehicleType), Balance (decimal).
 //       The format of the identifier is explained in the description of the home task.
 //       Id and VehicleType should not be able for changing.
