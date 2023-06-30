@@ -1,13 +1,13 @@
-﻿using System.Timers;
+﻿using System;
+using System.Timers;
 
 namespace CoolParking.BL.Interfaces
 {
-    public interface ITimerService
+    public interface ITimerService : IDisposable
     {
         event ElapsedEventHandler Elapsed;
         double Interval { get; set; }
         void Start();
         void Stop();
-        void Dispose();
     }
 }
